@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AirSimTest.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3BC236A9-1A8D-4681-AD63-4F55A471E2A9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AirSimTest.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AirSimTestEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{670FFD82-0EE7-4DF8-991B-D01E56FAF499}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AirSimTest">
+      <UniqueIdentifier>{FB0336FF-167D-4D09-922F-1B1081E09D7E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AirSimTest\AirSimTest.Build.cs">
+      <Filter>Source\AirSimTest</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AirSimTest\AirSimTest.cpp">
+      <Filter>Source\AirSimTest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AirSimTest\AirSimTest.h">
+      <Filter>Source\AirSimTest</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AirSimTest\AirSimTestGameModeBase.cpp">
+      <Filter>Source\AirSimTest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AirSimTest\AirSimTestGameModeBase.h">
+      <Filter>Source\AirSimTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

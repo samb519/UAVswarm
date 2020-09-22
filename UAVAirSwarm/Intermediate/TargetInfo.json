@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UAVAirSwarm",
+			"Path": "Z:\\forni\\Documents\\Unreal Projects\\UAVAirSwarm\\Source\\UAVAirSwarm.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UAVAirSwarmEditor",
+			"Path": "Z:\\forni\\Documents\\Unreal Projects\\UAVAirSwarm\\Source\\UAVAirSwarmEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

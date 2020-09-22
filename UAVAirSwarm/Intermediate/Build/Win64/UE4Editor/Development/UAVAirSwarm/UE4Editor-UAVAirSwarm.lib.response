@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UAVAirSwarm.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UAVAirSwarmEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\UAVAirSwarm.cpp.obj"
+"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\UAVAirSwarmGameModeBase.cpp.obj"
+"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\UAVAirSwarm.init.gen.cpp.obj"
+"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\UAVAirSwarmGameModeBase.gen.cpp.obj"
+"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\Default.rc2.res"
+/OUT:"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\UE4Editor-UAVAirSwarm.lib"
+/INCLUDE:IMPLEMENT_MODULE_UAVAirSwarm

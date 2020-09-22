@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"Z:\\forni\\Documents\\Unreal Projects\\UAVAirSwarm\\Source\\UAVAirSwarm\\UAVAirSwarm.Build.cs",
+		"Z:\\forni\\Documents\\Unreal Projects\\UAVAirSwarm\\Plugins\\AirSim\\Source\\AirSim.Build.cs",
+		"Z:\\forni\\Documents\\Unreal Projects\\UAVAirSwarm\\Source\\UAVAirSwarm.Target.cs",
+		"Z:\\forni\\Documents\\Unreal Projects\\UAVAirSwarm\\Source\\UAVAirSwarmEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}

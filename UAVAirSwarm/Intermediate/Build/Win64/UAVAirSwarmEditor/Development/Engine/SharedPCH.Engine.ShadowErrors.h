@@ -1,4 +1,4 @@
-// PCH for P:\UnrealEngine\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
+// PCH for C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
 #define IS_PROGRAM 0
 #define UE_EDITOR 1
 #define ENABLE_PGO_PROFILE 0
@@ -393,4 +393,4 @@
 #define CLOTHINGSYSTEMRUNTIMEINTERFACE_API DLLIMPORT
 #define AUDIOMIXERCORE_VTABLE DLLIMPORT_VTABLE
 #define AUDIOMIXERCORE_API DLLIMPORT
-#include "P:/UnrealEngine/UE_4.24/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h"
+#include "C:/Program Files/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h"

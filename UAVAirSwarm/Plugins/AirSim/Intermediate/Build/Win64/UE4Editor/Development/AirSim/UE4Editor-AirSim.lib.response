@@ -6,9 +6,9 @@
 /NAME:"UE4Editor-AirSim.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UAVAirSwarmEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.cpp.obj"
-"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.gen.cpp.obj"
-"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Default.rc2.res"
-/OUT:"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\UE4Editor-AirSim.lib"
+"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.cpp.obj"
+"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.gen.cpp.obj"
+"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Default.rc2.res"
+/OUT:"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\UE4Editor-AirSim.lib"
 /INCLUDE:IMPLEMENT_MODULE_AirSim

@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MyProject2.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\MyProject2.cpp.obj"
+"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\MyProject2GameModeBase.cpp.obj"
+"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\MyProject2.init.gen.cpp.obj"
+"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\MyProject2GameModeBase.gen.cpp.obj"
+"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\Default.rc2.res"
+/OUT:"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\UE4Editor-MyProject2.lib"
+/INCLUDE:IMPLEMENT_MODULE_MyProject2

@@ -1,9 +1,9 @@
-Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\Definitions.UAVAirSwarm.h
-P:\UnrealEngine\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-P:\UnrealEngine\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Source\UAVAirSwarm/UAVAirSwarmGameModeBase.h
-P:\UnrealEngine\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-P:\UnrealEngine\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-P:\UnrealEngine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-P:\UnrealEngine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Inc\UAVAirSwarm\UAVAirSwarmGameModeBase.generated.h
+C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\Definitions.UAVAirSwarm.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Source\UAVAirSwarm/UAVAirSwarmGameModeBase.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Inc\UAVAirSwarm\UAVAirSwarmGameModeBase.generated.h

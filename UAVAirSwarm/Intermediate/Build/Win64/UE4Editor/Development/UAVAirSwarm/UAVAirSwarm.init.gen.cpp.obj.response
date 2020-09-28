@@ -31,13 +31,10 @@
 /wd4838
 /we4668
 /I .
-/I "Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Inc\AirSim"
-/I "Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Plugins\AirSim"
-/I "Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Plugins\AirSim\Source\AirLib\include"
-/I "Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Plugins\AirSim\Source\AirLib\deps\eigen3"
-/I "Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Plugins\AirSim\Source\AirLib\deps\MavLinkCom\include"
-/I "Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Plugins\AirSim\Source\AirLib\deps\rpclib\include"
-/I "Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Plugins\AirSim\Source"
+/I C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Inc\AirSim
+/I C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Plugins\AirSim
+/I C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Plugins\AirSim\Source\AirLib\include
+/I C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Plugins\AirSim\Source
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -241,8 +238,8 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AnimGraphRuntime
 /I Runtime\AnimGraphRuntime\Public
 /I ..\Plugins\Runtime\PhysXVehicles\Source\ThirdParty
-/I "Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Inc\UAVAirSwarm"
-/I "Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Source"
+/I C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Inc\UAVAirSwarm
+/I C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -266,18 +263,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "P:\Microsoft VS\Microsoft VS Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UAVAirSwarmEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UAVAirSwarmEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UAVAirSwarmEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Inc\UAVAirSwarm\UAVAirSwarm.init.gen.cpp"
-/FI"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\Definitions.UAVAirSwarm.h"
-/Fo"Z:\forni\Documents\Unreal Projects\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\UAVAirSwarm.init.gen.cpp.obj"
+/FI"C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UAVAirSwarmEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UAVAirSwarmEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UAVAirSwarmEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Inc\UAVAirSwarm\UAVAirSwarm.init.gen.cpp"
+/FI"C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\Definitions.UAVAirSwarm.h"
+/Fo"C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\UAVAirSwarm.init.gen.cpp.obj"
 /TP
 /GR-
 /W4

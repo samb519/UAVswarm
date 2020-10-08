@@ -1,9 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\Users\\drayg\\OneDrive\\Documents\\GitHub\\UAVswarm\\UAVAirSwarm\\Source\\UAVAirSwarm\\UAVAirSwarm.Build.cs",
-		"C:\\Users\\drayg\\OneDrive\\Documents\\GitHub\\UAVswarm\\UAVAirSwarm\\Plugins\\AirSim\\Source\\AirSim.Build.cs",
-		"C:\\Users\\drayg\\OneDrive\\Documents\\GitHub\\UAVswarm\\UAVAirSwarm\\Source\\UAVAirSwarm.Target.cs",
-		"C:\\Users\\drayg\\OneDrive\\Documents\\GitHub\\UAVswarm\\UAVAirSwarm\\Source\\UAVAirSwarmEditor.Target.cs"
-	],
-	"EngineVersion": "4.24.3"
-}

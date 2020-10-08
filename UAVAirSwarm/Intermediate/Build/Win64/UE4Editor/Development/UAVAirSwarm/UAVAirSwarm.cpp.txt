@@ -1,2 +1,0 @@
-C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UE4Editor\Development\UAVAirSwarm\Definitions.UAVAirSwarm.h
-C:\Users\drayg\OneDrive\Documents\GitHub\UAVswarm\UAVAirSwarm\Source\UAVAirSwarm\UAVAirSwarm.h

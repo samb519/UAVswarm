@@ -1,9 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\Users\\drayg\\OneDrive\\Documents\\Unreal Projects\\MyProject2\\Source\\MyProject2\\MyProject2.Build.cs",
-		"C:\\Users\\drayg\\OneDrive\\Documents\\Unreal Projects\\MyProject2\\Plugins\\AirSim\\Source\\AirSim.Build.cs",
-		"C:\\Users\\drayg\\OneDrive\\Documents\\Unreal Projects\\MyProject2\\Source\\MyProject2.Target.cs",
-		"C:\\Users\\drayg\\OneDrive\\Documents\\Unreal Projects\\MyProject2\\Source\\MyProject2Editor.Target.cs"
-	],
-	"EngineVersion": "4.24.3"
-}

@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AirSim.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\FormationControlEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.cpp.obj"
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.gen.cpp.obj"
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Default.rc2.res"
+/OUT:"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\UE4Editor-AirSim.lib"
+/INCLUDE:IMPLEMENT_MODULE_AirSim

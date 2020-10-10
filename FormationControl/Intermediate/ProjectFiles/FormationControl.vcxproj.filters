@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FormationControl.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F9C20EB6-9354-4489-B56F-1FE8C77B2EF8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FormationControl.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FormationControlEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{6BA6B9FC-18A5-45B7-98F9-3859FFE8A4B6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FormationControl">
+      <UniqueIdentifier>{06C57302-BFF7-4BB2-9C60-8150D11952F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FormationControl\FormationControl.Build.cs">
+      <Filter>Source\FormationControl</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FormationControl\FormationControl.cpp">
+      <Filter>Source\FormationControl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FormationControl\FormationControl.h">
+      <Filter>Source\FormationControl</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FormationControl\FormationControlGameModeBase.cpp">
+      <Filter>Source\FormationControl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FormationControl\FormationControlGameModeBase.h">
+      <Filter>Source\FormationControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

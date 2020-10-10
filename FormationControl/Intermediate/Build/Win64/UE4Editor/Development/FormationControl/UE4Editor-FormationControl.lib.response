@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FormationControl.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\FormationControlEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\UE4Editor\Development\FormationControl\FormationControl.cpp.obj"
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\UE4Editor\Development\FormationControl\FormationControlGameModeBase.cpp.obj"
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\UE4Editor\Development\FormationControl\FormationControl.init.gen.cpp.obj"
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\UE4Editor\Development\FormationControl\FormationControlGameModeBase.gen.cpp.obj"
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\UE4Editor\Development\FormationControl\Default.rc2.res"
+/OUT:"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\UE4Editor\Development\FormationControl\UE4Editor-FormationControl.lib"
+/INCLUDE:IMPLEMENT_MODULE_FormationControl

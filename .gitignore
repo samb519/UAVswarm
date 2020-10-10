@@ -6,10 +6,6 @@
 *.lo
 *.o
 
-#Components for the world
-*.umap
-*.ddp
-
 # Precompiled Headers
 *.gch
 *.pch

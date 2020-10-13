@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\samb5\\OneDrive\\Documents\\ERAU\\A Fall 2020\\SE450\\Github Repo\\UAVswarm\\UAVAirSwarm\\Source\\UAVAirSwarm\\UAVAirSwarm.Build.cs",
+		"C:\\Users\\samb5\\OneDrive\\Documents\\ERAU\\A Fall 2020\\SE450\\Github Repo\\UAVswarm\\UAVAirSwarm\\Plugins\\AirSim\\Source\\AirSim.Build.cs",
+		"C:\\Users\\samb5\\OneDrive\\Documents\\ERAU\\A Fall 2020\\SE450\\Github Repo\\UAVswarm\\UAVAirSwarm\\Source\\UAVAirSwarm.Target.cs",
+		"C:\\Users\\samb5\\OneDrive\\Documents\\ERAU\\A Fall 2020\\SE450\\Github Repo\\UAVswarm\\UAVAirSwarm\\Source\\UAVAirSwarmEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}

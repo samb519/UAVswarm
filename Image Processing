@@ -1,0 +1,20 @@
+import Include.multirotor.setup_path 
+import airsim
+
+import os
+import numpy as np
+
+# Get Image data (Initialization)
+for i in range(numUAV):    
+    name = "UAV" + str(i+1)        
+    imgs = client.simGetImages([
+        airsim.ImageRequest("0", airsim.ImageType.Scene, False, False)], vehicle_name = name)  
+        
+    # Scene vision image in uncompressed RGBA array   
+    img = imgs[0]        
+    if i == 0:
+        imgArray = img.image_data_uint8
+    else:
+        imgArray = imgArray + img.image_data_uint8    
+imgWidth = img.width
+imgHeight = img.height

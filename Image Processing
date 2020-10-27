@@ -1,20 +1,53 @@
-import Include.multirotor.setup_path 
 import airsim
-
+import cv2
 import os
 import numpy as np
+from imutils import paths
+import imutils
+
+
+
+#Global testing variables
+droneNum = 3
+
+initialPositions = np.array([[2,0,-2],[4,0,-2],[6,0,-2]])
+
+#initializing AirSim Simulator
+client = airsim.MultirotorClient()
+client.confirmConnection()
+
+#intializing drones
+for i in range(droneNum):
+    droneName = "UAV" + str(i +1)
+    client.enableApiControl(True,droneName)
+    client.armDisarm(True,droneName)
+    client.takeoffAsync(vehicle_name=droneName)
+
 
 # Get Image data (Initialization)
-for i in range(numUAV):    
-    name = "UAV" + str(i+1)        
+for i in range(droneNum):
+    name = "UAV" + str(i + 1)
     imgs = client.simGetImages([
-        airsim.ImageRequest("0", airsim.ImageType.Scene, False, False)], vehicle_name = name)  
-        
-    # Scene vision image in uncompressed RGBA array   
-    img = imgs[0]        
+        airsim.ImageRequest("0", airsim.ImageType.Scene, False, False)],vehicle_name= name)
+    # Scene vision image in uncompressed RGBA array
+    img = imgs[0]
+
     if i == 0:
         imgArray = img.image_data_uint8
     else:
-        imgArray = imgArray + img.image_data_uint8    
+        imgArray = imgArray + img.image_data_uint8
+
 imgWidth = img.width
 imgHeight = img.height
+
+for i in range(droneNum):
+    name = "UAV" + str(i + 1)
+    imgs = client.simGetImages([
+        airsim.ImageRequest("0", airsim.ImageType.Scene, False, False)],vehicle_name= name)
+    # Scene vision image in uncompressed RGBA array
+    img = imgs[0]
+
+    if i == 0:
+        imgArray = img.image_data_uint8
+    else:
+        imgArray = imgArray + img.image_data_uint8

@@ -1,28 +1,34 @@
 {
-    "SimMode": "Multirotor",
-    "SettingsVersion": 1.2,
-    "EngineSound": false,
-    "RecordUIVisible": false,
-    "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
-    "LogMessagesVisible": false,
+    "LogMessagesVisible": false, 
+    "SettingsVersion": 1.2, 
     "Vehicles": {
+        "UAV345": {
+            "Y": 0, 
+            "X": 4, 
+            "Z": -2, 
+            "VehicleType": "SimpleFLight"
+        }, 
         "UAV1": {
-            "Y": 0,
-            "X": 2,
-            "Z": -2,
+            "Y": 0, 
+            "X": 2, 
+            "Z": -2, 
             "VehicleType": "SimpleFlight"
-        },
+        }, 
         "UAV2": {
-            "Y": 0,
-            "X": 6,
-            "Z": -2,
+            "Y": 0, 
+            "X": 6, 
+            "Z": -2, 
             "VehicleType": "SimpleFlight"
-        },
+        }, 
         "UAV3": {
-            "Y": 0,
-            "X": 8,
-            "Z": -2,
+            "Y": 0, 
+            "X": 8, 
+            "Z": -2, 
             "VehicleType": "SimpleFLight"
         }
-    }
+    }, 
+    "SimMode": "Multirotor", 
+    "EngineSound": false, 
+    "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md", 
+    "RecordUIVisible": false
 }

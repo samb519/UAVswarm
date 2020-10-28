@@ -2,11 +2,10 @@
 """
 Created on Tue Oct 27 22:33:27 2020
 
-@author: forni
 """
-
 import json
-  
+import random
+
 #Constants
 VEHICLESDIC = "Vehicles"
 VEHICLENAME = "UAV"
@@ -32,9 +31,9 @@ def __getVehicles():
         index = index+1
     return uavNumArray      
        
-def addVehicleToJson(xPos,yPos,zPos):
+def addDrone(xPos,yPos,zPos):
     __setData(__loadData())
-    vehicleNewName = VEHICLENAME + str((__findNumofVehicles()+1)) 
+    vehicleNewName = VEHICLENAME + str((__findNumofVehicles()+random.randint(0, 1000))) 
     vehiType = {vehicleNewName:{"VehicleType": "SimpleFLight", "X" : xPos, "Y": yPos, "Z": zPos}}  
     
     #Get the original data
@@ -44,21 +43,23 @@ def addVehicleToJson(xPos,yPos,zPos):
     #Append it to the rest of the data
     data[VEHICLESDIC].update(vehicleDic)
     __writeData()
+    print("Drone has been added")
 
-def removeVehicle(indexRemove):
+def removeDrone(indexRemove):
     vehicleArr = __getVehicles()
     
-    #Get the original data copy
+    #Get the original data as a copy
     vehicleDic = data[VEHICLESDIC]
     #Convert the list to string
-    vehicleRemove = "".join(map(str,vehicles[indexRemove]))
-    #Delete the vehicle from the original data copy
+    vehicleRemove = "".join(map(str,vehicleArr[indexRemove]))
+    #Delete the vehicle from the copy
     del vehicleDic[vehicleRemove]
-    #Delete the entire vehicle key and value
+    #Delete the entire vehicle key and value from the original data
     del data[VEHICLESDIC]
     #Add it back using the copy with the removed data
     data[VEHICLESDIC] = vehicleDic
     __writeData()
+    print("Drone has been removed")
     
 def __writeData():
       with open(PATH,'w') as f: 
@@ -70,9 +71,29 @@ def __getData():
 def __setData(newData):
     data = newData;
 
+def displayDrones():
+  data = __loadData()
+  print(data[VEHICLESDIC])
+
+#This method should be removed once classes are made instead of functions 
+def findNumofVehiclesStartUp():
+    data = __loadData()
+    index = 0    
+    for dataVehi in data[VEHICLESDIC]:
+        index = index+1
+    return index
+
+#This method should be removed once classes are made instead of functions
+def getVehiclesStartUp():
+    data = __loadData()
+    uavNumArray = [None] * __findNumofVehicles()
+    index = 0
+    for dataVehi in data[VEHICLESDIC]:
+        uavNumArray[index] = [dataVehi]
+        index = index+1
+    return uavNumArray 
+
 #Initalize the data
 data = __loadData()
-vehicles =  __getVehicles()
-removeVehicle(1)
 
        

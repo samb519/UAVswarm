@@ -2,12 +2,6 @@
     "LogMessagesVisible": false, 
     "SettingsVersion": 1.2, 
     "Vehicles": {
-        "UAV345": {
-            "Y": 0, 
-            "X": 4, 
-            "Z": -2, 
-            "VehicleType": "SimpleFLight"
-        }, 
         "UAV1": {
             "Y": 0, 
             "X": 2, 
@@ -23,6 +17,12 @@
         "UAV3": {
             "Y": 0, 
             "X": 8, 
+            "Z": -2, 
+            "VehicleType": "SimpleFLight"
+        }, 
+        "UAV816": {
+            "Y": 0, 
+            "X": 4, 
             "Z": -2, 
             "VehicleType": "SimpleFLight"
         }

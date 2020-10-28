@@ -75,14 +75,6 @@ def displayDrones():
   data = __loadData()
   print(data[VEHICLESDIC])
 
-#This method should be removed once classes are made instead of functions 
-def findNumofVehiclesStartUp():
-    data = __loadData()
-    index = 0    
-    for dataVehi in data[VEHICLESDIC]:
-        index = index+1
-    return index
-
 #This method should be removed once classes are made instead of functions
 def getVehiclesStartUp():
     data = __loadData()

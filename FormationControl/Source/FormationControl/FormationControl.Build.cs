@@ -8,7 +8,9 @@ public class FormationControl : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" 
+			//Additioanl
+			"Python", "PythonScriptPlugin"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

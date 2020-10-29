@@ -1,0 +1,33 @@
+﻿  Creating makefile for FormationControlEditor (no existing makefile)
+UnrealBuildTool : warning : Library 'Shell32.lib' was not resolvable to a file when used in Module 'AirSim', assuming it is a filename and will search library paths for it. This is slow and dependency checking will not work for it. Please update reference to be fully qualified alternatively use PublicSystemLibraryPaths if you do intended to use this slow path to suppress this warning.
+UnrealBuildTool : warning : Library 'dinput8.lib' was not resolvable to a file when used in Module 'AirSim', assuming it is a filename and will search library paths for it. This is slow and dependency checking will not work for it. Please update reference to be fully qualified alternatively use PublicSystemLibraryPaths if you do intended to use this slow path to suppress this warning.
+UnrealBuildTool : warning : Library 'dxguid.lib' was not resolvable to a file when used in Module 'AirSim', assuming it is a filename and will search library paths for it. This is slow and dependency checking will not work for it. Please update reference to be fully qualified alternatively use PublicSystemLibraryPaths if you do intended to use this slow path to suppress this warning.
+  Parsing headers for FormationControlEditor
+    Running UnrealHeaderTool "C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\FormationControl.uproject" "C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\FormationControlEditor\DebugGame\FormationControlEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FormationControlEditor in 31.0584384 seconds
+  Building FormationControlEditor...
+  Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 14 actions with 8 processes...
+    [1/14] Default.rc2
+    [2/14] Default.rc2
+    [3/14] SharedPCH.Engine.NonOptimized.ShadowErrors.cpp
+    [4/14] FormationControl.cpp
+    [5/14] FormationControl.init.gen.cpp
+    [6/14] FormationControlGameModeBase.cpp
+    [7/14] FormationControlGameModeBase.gen.cpp
+    [8/14] UE4Editor-FormationControl-Win64-DebugGame.lib
+       Creating library C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\UE4Editor\DebugGame\FormationControl\UE4Editor-FormationControl-Win64-DebugGame.lib and object C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\UE4Editor\DebugGame\FormationControl\UE4Editor-FormationControl-Win64-DebugGame.exp
+    [9/14] Module.AirSim.gen.cpp
+    [10/14] Module.AirSim.cpp
+    [11/14] UE4Editor-AirSim-Win64-DebugGame.lib
+       Creating library C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\DebugGame\AirSim\UE4Editor-AirSim-Win64-DebugGame.lib and object C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\DebugGame\AirSim\UE4Editor-AirSim-Win64-DebugGame.exp
+    [12/14] UE4Editor-FormationControl-Win64-DebugGame.dll
+       Creating library C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\UE4Editor\DebugGame\FormationControl\UE4Editor-FormationControl-Win64-DebugGame.suppressed.lib and object C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\UE4Editor\DebugGame\FormationControl\UE4Editor-FormationControl-Win64-DebugGame.suppressed.exp
+    [13/14] UE4Editor-AirSim-Win64-DebugGame.dll
+    AirLib.lib(FileSystem.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+       Creating library C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\DebugGame\AirSim\UE4Editor-AirSim-Win64-DebugGame.suppressed.lib and object C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\DebugGame\AirSim\UE4Editor-AirSim-Win64-DebugGame.suppressed.exp
+    Generating code
+    Finished generating code
+    [14/14] FormationControlEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 108.02 seconds
+  Total execution time: 142.38 seconds

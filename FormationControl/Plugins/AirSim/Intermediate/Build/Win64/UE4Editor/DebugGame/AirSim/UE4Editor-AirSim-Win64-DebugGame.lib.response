@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AirSim-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Intermediate\Build\Win64\FormationControlEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h.obj"
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\DebugGame\AirSim\Module.AirSim.cpp.obj"
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\DebugGame\AirSim\Module.AirSim.gen.cpp.obj"
+"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\DebugGame\AirSim\Default.rc2.res"
+/OUT:"C:\Users\samb5\OneDrive\Documents\Unreal Projects\FormationControl\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\DebugGame\AirSim\UE4Editor-AirSim-Win64-DebugGame.lib"
+/INCLUDE:IMPLEMENT_MODULE_AirSim

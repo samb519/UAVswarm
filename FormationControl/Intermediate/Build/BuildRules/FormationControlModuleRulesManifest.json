@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\samb5\\OneDrive\\Documents\\Unreal Projects\\FormationControl\\Source\\FormationControl\\FormationControl.Build.cs",
+		"C:\\Users\\samb5\\OneDrive\\Documents\\Unreal Projects\\FormationControl\\Plugins\\AirSim\\Source\\AirSim.Build.cs",
+		"C:\\Users\\samb5\\OneDrive\\Documents\\Unreal Projects\\FormationControl\\Source\\FormationControl.Target.cs",
+		"C:\\Users\\samb5\\OneDrive\\Documents\\Unreal Projects\\FormationControl\\Source\\FormationControlEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}

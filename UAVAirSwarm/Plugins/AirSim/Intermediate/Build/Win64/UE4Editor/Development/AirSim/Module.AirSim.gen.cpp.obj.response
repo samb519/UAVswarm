@@ -228,13 +228,10 @@
 /I Runtime\MovieSceneTracks\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 /I Runtime\PropertyPath\Public
-/I "C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Inc\AirSim"
-/I "C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim"
-/I "C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Source\AirLib\include"
-/I "C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Source\AirLib\deps\eigen3"
-/I "C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Source\AirLib\deps\MavLinkCom\include"
-/I "C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Source\AirLib\deps\rpclib\include"
-/I "C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Source"
+/I "C:\Users\samb5\OneDrive\Documents\ERAU\A Fall 2020\SE450\Github Repo\UAVswarm\UAVAirSwarm\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Inc\AirSim"
+/I "C:\Users\samb5\OneDrive\Documents\ERAU\A Fall 2020\SE450\Github Repo\UAVswarm\UAVAirSwarm\Plugins\AirSim"
+/I "C:\Users\samb5\OneDrive\Documents\ERAU\A Fall 2020\SE450\Github Repo\UAVswarm\UAVAirSwarm\Plugins\AirSim\Source\AirLib\include"
+/I "C:\Users\samb5\OneDrive\Documents\ERAU\A Fall 2020\SE450\Github Repo\UAVswarm\UAVAirSwarm\Plugins\AirSim\Source"
 /I ..\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles
 /I ..\Plugins\Runtime\PhysXVehicles\Source
 /I ..\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public
@@ -265,17 +262,17 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.gen.cpp"
-/FI"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Definitions.AirSim.h"
-/Fo"C:\Users\drayg\OneDrive\Documents\Unreal Projects\MyProject2\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.gen.cpp.obj"
+/FI"C:\Users\samb5\OneDrive\Documents\ERAU\A Fall 2020\SE450\Github Repo\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UAVAirSwarmEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\samb5\OneDrive\Documents\ERAU\A Fall 2020\SE450\Github Repo\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UAVAirSwarmEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\samb5\OneDrive\Documents\ERAU\A Fall 2020\SE450\Github Repo\UAVswarm\UAVAirSwarm\Intermediate\Build\Win64\UAVAirSwarmEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\samb5\OneDrive\Documents\ERAU\A Fall 2020\SE450\Github Repo\UAVswarm\UAVAirSwarm\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.gen.cpp"
+/FI"C:\Users\samb5\OneDrive\Documents\ERAU\A Fall 2020\SE450\Github Repo\UAVswarm\UAVAirSwarm\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Definitions.AirSim.h"
+/Fo"C:\Users\samb5\OneDrive\Documents\ERAU\A Fall 2020\SE450\Github Repo\UAVswarm\UAVAirSwarm\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.gen.cpp.obj"
 /TP
 /GR-
 /W4

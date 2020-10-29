@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FormationControl",
+			"Path": "C:\\Users\\samb5\\OneDrive\\Documents\\Unreal Projects\\FormationControl\\Source\\FormationControl.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FormationControlEditor",
+			"Path": "C:\\Users\\samb5\\OneDrive\\Documents\\Unreal Projects\\FormationControl\\Source\\FormationControlEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

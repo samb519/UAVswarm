@@ -5,6 +5,7 @@ Created on Tue Oct 27 22:33:27 2020
 """
 import json
 import random
+import TerminalCheck as tCheck
 
 #Constants
 VEHICLESDIC = "Vehicles"
@@ -33,33 +34,36 @@ def __getVehicles():
        
 def addDrone(xPos,yPos,zPos):
     __setData(__loadData())
-    vehicleNewName = VEHICLENAME + str((__findNumofVehicles()+random.randint(0, 1000))) 
-    vehiType = {vehicleNewName:{"VehicleType": "SimpleFLight", "X" : xPos, "Y": yPos, "Z": zPos}}  
-    
-    #Get the original data
-    vehicleDic = data[VEHICLESDIC]
-    #Append the new data
-    vehicleDic.update(vehiType)
-    #Append it to the rest of the data
-    data[VEHICLESDIC].update(vehicleDic)
-    __writeData()
-    print("Drone has been added")
+    isValid = tCheck.checkAddDrone(__findNumofVehicles(),xPos,yPos,zPos)
+    if(isValid):
+        vehicleNewName = VEHICLENAME + str((__findNumofVehicles()+random.randint(0, 1000))) 
+        vehiType = {vehicleNewName:{"VehicleType": "SimpleFLight", "X" : xPos, "Y": yPos, "Z": zPos}}  
+        #Get the original data
+        vehicleDic = data[VEHICLESDIC]
+        #Append the new data
+        vehicleDic.update(vehiType)
+        #Append it to the rest of the data
+        data[VEHICLESDIC].update(vehicleDic)
+        __writeData()
+        print("Drone has been added")
 
 def removeDrone(indexRemove):
     vehicleArr = __getVehicles()
+    isValid = tCheck.checkRemoveDrone(indexRemove,len(vehicleArr))
     
-    #Get the original data as a copy
-    vehicleDic = data[VEHICLESDIC]
-    #Convert the list to string
-    vehicleRemove = "".join(map(str,vehicleArr[indexRemove]))
-    #Delete the vehicle from the copy
-    del vehicleDic[vehicleRemove]
-    #Delete the entire vehicle key and value from the original data
-    del data[VEHICLESDIC]
-    #Add it back using the copy with the removed data
-    data[VEHICLESDIC] = vehicleDic
-    __writeData()
-    print("Drone has been removed")
+    if(isValid):    
+        #Get the original data as a copy
+        vehicleDic = data[VEHICLESDIC]
+        #Convert the list to string
+        vehicleRemove = "".join(map(str,vehicleArr[indexRemove]))
+        #Delete the vehicle from the copy
+        del vehicleDic[vehicleRemove]
+        #Delete the entire vehicle key and value from the original data
+        del data[VEHICLESDIC]
+        #Add it back using the copy with the removed data
+        data[VEHICLESDIC] = vehicleDic
+        __writeData()
+        print("Drone has been removed")
     
 def __writeData():
       with open(PATH,'w') as f: 
@@ -87,5 +91,4 @@ def getVehiclesStartUp():
 
 #Initalize the data
 data = __loadData()
-
-       
+   

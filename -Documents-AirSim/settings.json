@@ -1,6 +1,6 @@
 {
+    "RecordUIVisible": false, 
     "LogMessagesVisible": false, 
-    "SettingsVersion": 1.2, 
     "Vehicles": {
         "UAV1": {
             "Y": 0, 
@@ -19,16 +19,10 @@
             "X": 8, 
             "Z": -2, 
             "VehicleType": "SimpleFLight"
-        }, 
-        "UAV816": {
-            "Y": 0, 
-            "X": 4, 
-            "Z": -2, 
-            "VehicleType": "SimpleFLight"
         }
     }, 
     "SimMode": "Multirotor", 
     "EngineSound": false, 
     "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md", 
-    "RecordUIVisible": false
+    "SettingsVersion": 1.2
 }

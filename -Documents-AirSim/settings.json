@@ -19,6 +19,12 @@
             "X": 8, 
             "Z": -2, 
             "VehicleType": "SimpleFLight"
+        }, 
+        "UAV257": {
+            "Y": 0, 
+            "X": 4, 
+            "Z": -2, 
+            "VehicleType": "SimpleFLight"
         }
     }, 
     "SimMode": "Multirotor", 

@@ -18,14 +18,13 @@ def __loadData():
         data = json.load(f)
     return data   
 
-def __findNumofVehicles():
+def getVehicles():    
     index = 0    
     for dataVehi in data[VEHICLESDIC]:
         index = index+1
-    return index
-
-def __getVehicles():
-    uavNumArray = [None] * __findNumofVehicles()
+    
+    uavNumArray = [None] * index
+    
     index = 0
     for dataVehi in data[VEHICLESDIC]:
         uavNumArray[index] = [dataVehi]
@@ -33,10 +32,11 @@ def __getVehicles():
     return uavNumArray      
        
 def addDrone(xPos,yPos,zPos):
-    __setData(__loadData())
-    isValid = tCheck.checkAddDrone(__findNumofVehicles(),xPos,yPos,zPos)
+    vehicLen = len(getVehicles())
+    isValid = tCheck.checkAddDrone(vehicLen,xPos,yPos,zPos)
+    
     if(isValid):
-        vehicleNewName = VEHICLENAME + str((__findNumofVehicles()+random.randint(0, 1000))) 
+        vehicleNewName = VEHICLENAME + str((vehicLen)+random.randint(0, 1000)) 
         vehiType = {vehicleNewName:{"VehicleType": "SimpleFLight", "X" : xPos, "Y": yPos, "Z": zPos}}  
         #Get the original data
         vehicleDic = data[VEHICLESDIC]
@@ -48,7 +48,7 @@ def addDrone(xPos,yPos,zPos):
         print("Drone has been added")
 
 def removeDrone(indexRemove):
-    vehicleArr = __getVehicles()
+    vehicleArr = getVehicles()
     isValid = tCheck.checkRemoveDrone(indexRemove,len(vehicleArr))
     
     if(isValid):    
@@ -69,26 +69,9 @@ def __writeData():
       with open(PATH,'w') as f: 
         json.dump(data, f, indent=JSONINDENT) 
 
-def __getData():
-    return data;
-
-def __setData(newData):
-    data = newData;
-
 def displayDrones():
   data = __loadData()
   print(data[VEHICLESDIC])
 
-#This method should be removed once classes are made instead of functions
-def getVehiclesStartUp():
-    data = __loadData()
-    uavNumArray = [None] * __findNumofVehicles()
-    index = 0
-    for dataVehi in data[VEHICLESDIC]:
-        uavNumArray[index] = [dataVehi]
-        index = index+1
-    return uavNumArray 
-
 #Initalize the data
 data = __loadData()
-   

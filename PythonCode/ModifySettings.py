@@ -10,6 +10,7 @@ import TerminalCheck as tCheck
 #Constants
 VEHICLESDIC = "Vehicles"
 VEHICLENAME = "UAV"
+DISTRIBUTE = "DistributionSize"
 PATH = r'P:\\GitHub\UAVswarm\\-Documents-AirSim\\settings.json'
 JSONINDENT = 4
 
@@ -33,9 +34,8 @@ def getVehicles():
        
 def addDrone(xPos,yPos,zPos):
     vehicLen = len(getVehicles())
-    isValid = tCheck.checkAddDrone(vehicLen,xPos,yPos,zPos)
     
-    if(isValid):
+    if(tCheck.checkAddDrone(vehicLen,xPos,yPos,zPos)):
         vehicleNewName = VEHICLENAME + str((vehicLen)+random.randint(0, 1000)) 
         vehiType = {vehicleNewName:{"VehicleType": "SimpleFLight", "X" : xPos, "Y": yPos, "Z": zPos}}  
         #Get the original data
@@ -49,9 +49,8 @@ def addDrone(xPos,yPos,zPos):
 
 def removeDrone(indexRemove):
     vehicleArr = getVehicles()
-    isValid = tCheck.checkRemoveDrone(indexRemove,len(vehicleArr))
     
-    if(isValid):    
+    if(tCheck.checkRemoveDrone(indexRemove,len(vehicleArr))):    
         #Get the original data as a copy
         vehicleDic = data[VEHICLESDIC]
         #Convert the list to string
@@ -64,6 +63,14 @@ def removeDrone(indexRemove):
         data[VEHICLESDIC] = vehicleDic
         __writeData()
         print("Drone has been removed")
+
+def setDistribution(size):
+    if(tCheck.checkDistrSize(size)):
+        data[DISTRIBUTE] = size;
+        __writeData()
+        
+def getDistribution():
+    return data[DISTRIBUTE]
     
 def __writeData():
       with open(PATH,'w') as f: 

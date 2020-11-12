@@ -20,7 +20,6 @@ def checkAddDrone(droneSize,xPos,yPos,zPos):
         if(droneSize >= 10):
             raise TypeError("Can only have up to 10 drones")
             isValid = False
-
         return isValid
     
 def checkRemoveDrone(droneIndex,droneSize):

@@ -9,7 +9,7 @@ import random
 #Constants
 VEHICLESDIC = "Vehicles"
 VEHICLENAME = "UAV"
-PATH = r'P:\\GitHub\UAVswarm\\-Documents-AirSim\\settings.json'
+PATH = r'C:\Users\jmora\OneDrive\Documents\AirSim\settings.json'
 JSONINDENT = 4
 
 def __loadData():

@@ -67,10 +67,10 @@ def initalizeDrone(client, droneNum, droneNames):
         img_rgb = img1d.reshape(response.height, response.width, 3)
 
         # original image is fliped vertically
-        back = os.curdir
-        os.chdir(r"C:\Users\jmora\OneDrive\Pictures\Saved Pictures")
-        # write to png
-        airsim.write_png(os.path.normpath( 'img{}.png'.format(i)), img_rgb)
+        # back = os.curdir
+        # os.chdir(r"C:\Users\jmora\OneDrive\Pictures\Saved Pictures")
+        # # write to png
+        # airsim.write_png(os.path.normpath( 'img{}.png'.format(i)), img_rgb)
 
         image = img_rgb
 
@@ -103,7 +103,7 @@ def initalizeDrone(client, droneNum, droneNames):
 
 
 
-        inches = (18 * 571.4) / rresult[1][0]
+        inches = (196.85 * 388) / 200
 
         box = cv2.cv.BoxPoints(rresult) if imutils.is_cv2() else cv2.boxPoints(rresult)
         box = np.int0(box)

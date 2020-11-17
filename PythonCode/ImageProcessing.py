@@ -9,6 +9,8 @@ import math
 
 # Global testing variables
 droneNum = 3
+focalLength = 131.92
+droneWidth = 0.44
 # initialPositions = np.array([[2,0,-2],[4,0,-2],[6,0,-2]])
 VEHICLENAME = "UAV"
 
@@ -103,7 +105,7 @@ def initalizeDrone(client, droneNum, droneNames):
 
 
 
-        inches = (196.85 * 388) / 200
+        inches = (droneWidth * focalLength) / rresult[1][0]
 
         box = cv2.cv.BoxPoints(rresult) if imutils.is_cv2() else cv2.boxPoints(rresult)
         box = np.int0(box)

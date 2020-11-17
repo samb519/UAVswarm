@@ -68,9 +68,10 @@ def initalizeDrone(client, droneNum, droneNames):
 
         # original image is fliped vertically
         back = os.curdir
-        os.chdir(r"C:\Users\jmora\OneDrive\Pictures\Saved Pictures")
+         #os.chdir(r"C:\Users\jmora\OneDrive\Pictures\Saved Pictures")
+       
         # write to png
-        airsim.write_png(os.path.normpath( 'img{}.png'.format(i)), img_rgb)
+        #airsim.write_png(os.path.normpath( 'img{}.png'.format(i)), img_rgb)
 
         image = img_rgb
 

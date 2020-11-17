@@ -2231,3 +2231,35 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.17-03.13.38:831][679]LogHttp: Warning: 000001DE9738AAC0: libcurl info message cache 6 (necessary data rewind wasn't possible)
 [2020.11.17-03.13.38:831][679]LogHttp: Warning: 000001DE9738AAC0: libcurl info message cache 7 (Closing connection 21)
 [2020.11.17-03.13.39:002][680]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA6D3A7CD-489B-5960-8E0F-2785DB7DE2EF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=c93363c7484ecf6971e3e8934e8b5b70%7C160fcc1cadec4b85bb07023668b15dbe%7Cf2e0b5bd-d7a8-48cd-a7ba-a890061b70c7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.11.17-09.16.19:652][168]LogTemp: Resetting audio stream to device id 
+[2020.11.17-09.16.19:702][168]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.11.17-09.16.19:702][168]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio(SST))
+[2020.11.17-09.16.19:702][168]LogAudioMixer: Display: Is Default: Yes
+[2020.11.17-09.16.19:702][168]LogAudioMixer: Display: Sample Rate: 48000
+[2020.11.17-09.16.19:702][168]LogAudioMixer: Display: Channel Count Used: 2
+[2020.11.17-09.16.19:702][168]LogAudioMixer: Display: Device Channel Count: 2
+[2020.11.17-09.16.19:702][168]LogAudioMixer: Display: Channel Order:
+[2020.11.17-09.16.19:702][168]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.17-09.16.19:702][168]LogAudioMixer: Display: 1: FrontRight
+[2020.11.17-09.16.20:328][171]LogHttp: Warning: 000001DE9722C680: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA6D3A7CD-489B-5960-8E0F-2785DB7DE2EF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=c93363c7484ecf6971e3e8934e8b5b70%7C160fcc1cadec4b85bb07023668b15dbe%7Cf2e0b5bd-d7a8-48cd-a7ba-a890061b70c7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.11.17-09.16.20:329][171]LogHttp: Warning: 000001DE9722C680: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.11.17-09.16.20:329][171]LogHttp: Warning: 000001DE9722C680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1def476ff70 [can pipeline])
+[2020.11.17-09.16.20:329][171]LogHttp: Warning: 000001DE9722C680: libcurl info message cache 1 (Re-using existing connection! (#22) with host datarouter.ol.epicgames.com)
+[2020.11.17-09.16.20:329][171]LogHttp: Warning: 000001DE9722C680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.206.70.19) port 443 (#22))
+[2020.11.17-09.16.20:329][171]LogHttp: Warning: 000001DE9722C680: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.11.17-09.16.20:330][171]LogHttp: Warning: 000001DE9722C680: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.11.17-09.16.20:331][171]LogHttp: Warning: 000001DE9722C680: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.11.17-09.16.20:331][171]LogHttp: Warning: 000001DE9722C680: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.11.17-09.16.20:331][171]LogHttp: Warning: 000001DE9722C680: libcurl info message cache 7 (Closing connection 22)
+[2020.11.17-09.16.20:676][172]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA6D3A7CD-489B-5960-8E0F-2785DB7DE2EF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=c93363c7484ecf6971e3e8934e8b5b70%7C160fcc1cadec4b85bb07023668b15dbe%7Cf2e0b5bd-d7a8-48cd-a7ba-a890061b70c7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.11.17-18.41.01:252][177]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.17-18.41.04:786][177]LogTemp: Resetting audio stream to device id 
+[2020.11.17-18.41.04:918][177]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.11.17-18.41.04:918][177]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio(SST))
+[2020.11.17-18.41.04:919][177]LogAudioMixer: Display: Is Default: Yes
+[2020.11.17-18.41.04:919][177]LogAudioMixer: Display: Sample Rate: 48000
+[2020.11.17-18.41.04:919][177]LogAudioMixer: Display: Channel Count Used: 2
+[2020.11.17-18.41.04:919][177]LogAudioMixer: Display: Device Channel Count: 2
+[2020.11.17-18.41.04:919][177]LogAudioMixer: Display: Channel Order:
+[2020.11.17-18.41.04:919][177]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.17-18.41.04:920][177]LogAudioMixer: Display: 1: FrontRight

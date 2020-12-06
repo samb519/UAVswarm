@@ -22,18 +22,9 @@ def connectToUnreal():
     return tempClient
 
 
-def initalizeDrone(client, droneNum, droneNames):
-    # intializing drones
+def getLocalPosition(client, droneNum, droneNames):
 
-    for i in range(droneNum):
-        droneName = "".join(map(str, droneNames[i]))
-        client.enableApiControl(True, droneName)
-        client.armDisarm(True, droneName)
-        client.takeoffAsync(vehicle_name=droneName)
-
-    # Get Image data (Initialization)
-    for i in range(droneNum):
-        name = "".join(map(str, droneNames[i]))
+        name = "".join(map(str, droneNames[0]))
         imgs = client.simGetImages([
             airsim.ImageRequest("0", airsim.ImageType.Scene, False, False)], vehicle_name=name)
         # Scene vision image in uncompressed RGBA array
@@ -44,20 +35,8 @@ def initalizeDrone(client, droneNum, droneNames):
         else:
             imgArray = imgArray + img.image_data_uint8
 
-    imgWidth = img.width
-    imgHeight = img.height
-
-    for i in range(droneNum):
-        name = "".join(map(str, droneNames[i]))
-        imgs = client.simGetImages([
-            airsim.ImageRequest("0", airsim.ImageType.Scene, False, False)], vehicle_name=name)
-        # Scene vision image in uncompressed RGBA array
-        img = imgs[0]
-
-        if i == 0:
-            imgArray = img.image_data_uint8
-        else:
-            imgArray = imgArray + img.image_data_uint8
+        imgWidth = img.width
+        imgHeight = img.height
 
 
         response = imgs[0]
@@ -123,7 +102,6 @@ def initalizeDrone(client, droneNum, droneNames):
         dist = math.sqrt((pt[0] - orig[0]) ** 2 + (pt[1] - orig[1]) ** 2)
 
 
-        cv2.imshow("edged",edged)
         cv2.imwrite("contoured.png",edged)
         cv2.waitKey(0)
 
@@ -135,9 +113,11 @@ def initalizeDrone(client, droneNum, droneNames):
         cv2.putText(image, "%.2fft" % (inches/ 12),
                     (image.shape[1] - 200, image.shape[0] - 20), cv2.FONT_HERSHEY_SIMPLEX,
                     2.0, (0, 255, 0), 3)
-        cv2.imshow("image", image)
         cv2.waitKey(0)
 
+        numpyVector = np.array(inches/12)
+
+        return numpyVector
 
 
 

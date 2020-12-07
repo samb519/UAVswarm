@@ -6,6 +6,8 @@ from imutils import paths
 import imutils
 import MoveToFormationPos
 import MasterDrone
+import AbsolutePositionAlgorithm
+import ForceControlAlgorithm
 
 class Drone:
 	position = [0, 0, 0]
@@ -21,10 +23,16 @@ class Drone:
     def sendImageToMaster():
 
 	def sendGlobalPositionToMaster():
+		return position
 
-	def setDronePosition():
+	#drone, drone, vector
+	def setDronePosition(originDrone, targetDrone, position):
+		AbsolutePositionAlgorithm.addDronesToDict(MasterDrone.getChildren())
 
-	def moveDrone():
+	#vector
+	def moveDrone(location):
+		self.drone.moveToPosition(location[0], location[1], location[2]).join()
 
-	def tick():
+	#float
+	def tick(deltaSeconds):
 

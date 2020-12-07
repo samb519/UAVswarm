@@ -12,8 +12,9 @@ import ForceControlAlgorithm
 class Drone:
 	position = [0, 0, 0]
 
-	def __init__(self, id, mass):
+	def __init__(self, id, name, mass):
 		self.id = id
+		self.name = name
 		self.mass = mass	
 		self.drone = airsim.MultirotorClient();
     	self.drone.confirmConnection()

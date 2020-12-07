@@ -26,8 +26,8 @@ class MasterDrone:
 	def recieveImage(image, drone):
 
 	#vector
-	def recieveGlobalPosition(position):
-		droneGlobalPos = position
+	def recieveLocalPosition(droneId, droneName):
+		ImageProcessing.getLocalPosition(ImageProcessing.connectToUnreal(), droneId, droneName)
 
 	def getChildren():
 		return childDrones

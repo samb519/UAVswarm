@@ -4,7 +4,7 @@ import os
 import numpy as np
 from imutils import paths
 import imutils
-import MoveToFormationPos
+#import MoveToFormationPos
 import MasterDrone
 import AbsolutePositionAlgorithm
 import ForceControlAlgorithm
@@ -12,18 +12,21 @@ import ForceControlAlgorithm
 class Drone:
 	position = [0, 0, 0]
 
-	def __init__(self, id, name, mass):
+	def __init__(self, id, name, mass,client):
 		self.id = id
 		self.name = name
-		self.mass = mass	
-		self.drone = airsim.MultirotorClient();
-    	self.drone.confirmConnection()
-    	self.drone.enableApiControl(True)
-    	self.drone.armDisarm(True)
+		self.mass = mass
+		self.drone = airsim.MultirotorClient()
 
-    	def sendImageToMaster():
+		client.enableApiControl(True, name)
+		client.armDisarm(True, name)
+		client.takeoffAsync(vehicle_name=name).join()
 
-	def sendGlobalPositionToMaster():
+
+
+
+
+	def sendGlobalPositionToMaster(self):
 		return position
 
 	#drone, drone, vector
@@ -36,4 +39,5 @@ class Drone:
 
 	#float
 	def tick(deltaSeconds):
+		pass
 

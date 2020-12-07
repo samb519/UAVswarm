@@ -9,26 +9,27 @@ import ImageProcessing
 import Drone
 
 class MasterDrone:
-	mass = 20
-	viewFromDrone = bytearray()
-	childDrones = []
-	droneGlobalPos = [0, 0, 0]
-	for i in range(10):
-		enrollChildDrone(Drone(i, 5, ""))
 
 	def __init__(self):
+		self.mass = 20
+		self.viewFromDrone = bytearray()
+		self.childDrones = []
+		self.droneGlobalPos = [0, 0, 0]
+		for i in range(10):
+			self.enrollChildDrone(Drone(i, 5, ""))
 
 	#drone
-	def enrollChildDrone(child):
-		childDrones.append(child)
+	def enrollChildDrone(self,child):
+		self.childDrones.append(child)
 
 	#byte[], drone
-	def recieveImage(image, drone):
+	def recieveImage(self,image, drone):
+		pass
 
 	#vector
-	def recieveLocalPosition(droneId, droneName):
+	def recieveLocalPosition(self,droneId, droneName):
 		ImageProcessing.getLocalPosition(ImageProcessing.connectToUnreal(), droneId, droneName)
 
-	def getChildren():
-		return childDrones
+	def getChildren(self):
+		return self.childDrones
 

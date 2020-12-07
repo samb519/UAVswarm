@@ -3,15 +3,22 @@
 Created on Wed Oct 28 13:21:15 2020
 
 """
-from ImageProcessing import connectToUnreal,initalizeDrone
+import ImageProcessing
 from ModifySettings import getVehicles
+import Drone
 
 def __StartUp():
-    client = connectToUnreal()
+    client = ImageProcessing.connectToUnreal()
     
     droneNames = getVehicles();
     numDrones = len(droneNames)
+
+    drone = Drone(self, id, droneNames[0], mass,client)
+
+
+
     
-    initalizeDrone(client,numDrones,droneNames)
-    
+
+
+
 __StartUp()

@@ -1,35 +1,29 @@
 {
-    "RecordUIVisible": false,
-    "LogMessagesVisible": false,
+    "RecordUIVisible": false, 
+    "LogMessagesVisible": false, 
+    "DistributionSize": 100, 
     "Vehicles": {
         "UAV1": {
-            "Y": 0,
-            "X": 2,
-            "Z": -2,
+            "Y": 0, 
+            "X": 2, 
+            "Z": -2, 
             "VehicleType": "SimpleFlight"
-        },
+        }, 
         "UAV2": {
-            "Y": 0,
-            "X": 6,
-            "Z": -2,
+            "Y": 0, 
+            "X": 6, 
+            "Z": -2, 
             "VehicleType": "SimpleFlight"
-        },
+        }, 
         "UAV3": {
-            "Y": 0,
-            "X": 8,
-            "Z": -2,
-            "VehicleType": "SimpleFLight"
-        },
-        "UAV257": {
-            "Y": 0,
-            "X": 4,
-            "Z": -2,
+            "Y": 0, 
+            "X": 8, 
+            "Z": -2, 
             "VehicleType": "SimpleFLight"
         }
-    },
-    "SimMode": "Multirotor",
-    "EngineSound": false,
-    "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
-    "SettingsVersion": 1.2,
-    "DistributionSize": 100
+    }, 
+    "SimMode": "Multirotor", 
+    "EngineSound": false, 
+    "SettingsVersion": 1.2, 
+    "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md"
 }

@@ -9,7 +9,7 @@ from ModifySettings import getVehicles
 def __StartUp():
     client = connectToUnreal()
     
-    droneNames = getVehicles()
+    droneNames = getVehicles();
     numDrones = len(droneNames)
     
     initalizeDrone(client,numDrones,droneNames)

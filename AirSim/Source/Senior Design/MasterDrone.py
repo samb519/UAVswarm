@@ -14,7 +14,7 @@ class MasterDrone:
 	childDrones = []
 	droneGlobalPos = [0, 0, 0]
 	for i in range(10):
-		enrollChildDrone(Drone(i, 5))
+		enrollChildDrone(Drone(i, 5, ""))
 
 	def __init__(self):
 

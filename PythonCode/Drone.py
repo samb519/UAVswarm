@@ -1,43 +1,27 @@
-import airsim
-import cv2
-import os
-import numpy as np
-from imutils import paths
-import imutils
-#import MoveToFormationPos
-import MasterDrone
-import AbsolutePositionAlgorithm
-import ForceControlAlgorithm
-
 class Drone:
-	position = [0, 0, 0]
 
-	def __init__(self, id, name, mass,client):
+	def __init__(self, id, name, mass, client, controlAlgorithm):
 		self.id = id
 		self.name = name
 		self.mass = mass
-		self.drone = airsim.MultirotorClient()
+		self.drone = client
+		self.position = [0, 0, 0]
+		self.controlAlgorithm = controlAlgorithm
 
-		client.enableApiControl(True, name)
-		client.armDisarm(True, name)
-		client.takeoffAsync(vehicle_name=name).join()
-
-
-
-
+		self.drone.enableApiControl(True, self.name)
+		self.drone.armDisarm(True, self.name)
+		self.drone.takeoffAsync(vehicle_name=self.name).join()
 
 	def sendGlobalPositionToMaster(self):
-		return position
+		return self.position
 
 	#drone, drone, vector
-	def setDronePosition(originDrone, targetDrone, position):
+	def setDronePosition(self, originDrone, targetDrone, position):
 		AbsolutePositionAlgorithm.addDronesToDict(MasterDrone.getChildren())
 
+	def getControlAlgorithm(self):
+		return self.controlAlgorithm
+
 	#vector
-	def moveDrone(location):
-		self.drone.moveToPosition(location[0], location[1], location[2]).join()
-
-	#float
-	def tick(deltaSeconds):
-		pass
-
+	def moveDrone(self, location):
+		self.drone.moveByVelocityAsync(location[0], location[1], location[2], 1, vehicle_name=self.name).join()

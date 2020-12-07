@@ -880,3 +880,126 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.07-02.28.40:683][775]PIE: Play in editor start time for /Game/UEDPIE_0_LandscapeMap 8.321
 [2020.12.07-02.28.40:686][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LandscapeMap.LandscapeMap:PersistentLevel' has LevelScriptBlueprint '/Game/LandscapeMap.LandscapeMap:PersistentLevel.LandscapeMap' with GeneratedClass '/Game/LandscapeMap.LandscapeMap_C' with ClassGeneratedBy '/Game/LandscapeMap.LandscapeMap:PersistentLevel.LandscapeMap'
 [2020.12.07-02.42.59:112][403]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.07-03.16.39:062][417]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.07-03.53.11:181][221]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-03.53.21:604][441]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-03.53.33:020][735]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-03.54.39:787][934]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-03.54.50:927][144]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-03.55.01:207][280]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.00.50:110][434]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.01.00:635][572]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.01.11:031][603]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.01.19:640][851]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2020.12.07-04.01.19:642][851]LogParticles: Error: SystemPositionForMacroUVs: {-92338.414063, -124399.789063, 46579.089844}
+[2020.12.07-04.01.19:642][851]LogParticles: Error: ObjectPostProjectionPositionWithW: {308.398438, -384.682129, 10.000000, -0.007813}
+[2020.12.07-04.01.19:642][851]LogParticles: Error: RightPostProjectionPosition: {508.398438, -384.682129, 10.000000, -0.007813}
+[2020.12.07-04.01.19:642][851]LogParticles: Error: UpPostProjectionPosition: {308.406250, -29.133789, 10.000000, 0.000000}
+[2020.12.07-04.01.19:642][851]LogParticles: Error: ObjectNDCPosition: {30839844.000000, -38468212.000000}
+[2020.12.07-04.01.19:642][851]LogParticles: Error: RightNDCPosX: -65075.000000
+[2020.12.07-04.01.19:642][851]LogParticles: Error: UpNDCPosY: -inf
+[2020.12.07-04.01.19:643][851]LogParticles: Error: MacroUVPosition: {-92338.414063, -124399.789063, 46579.089844}
+[2020.12.07-04.01.19:643][851]LogParticles: Error: MacroUVRadius: 200.000000
+[2020.12.07-04.01.19:643][851]LogParticles: Error: DX: -30904920.000000
+[2020.12.07-04.01.19:643][851]LogParticles: Error: DY: -inf
+[2020.12.07-04.01.19:643][851]LogParticles: Error: View0: {-0.001949, 0.999998, -0.000000, 1.000000}
+[2020.12.07-04.01.19:643][851]LogParticles: Error: View1: {0.036233, 0.000071, 0.999343, 1.000000}
+[2020.12.07-04.01.19:644][851]LogParticles: Error: View2: {0.999341, 0.001948, -0.036233, 1.000000}
+[2020.12.07-04.01.19:644][851]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2020.12.07-04.01.19:645][851]LogParticles: Error: ViewProj0: {-0.002878, 0.999996, 0.000034, 1.000000}
+[2020.12.07-04.01.19:645][851]LogParticles: Error: ViewProj1: {0.063813, 0.000125, 1.776633, 1.000000}
+[2020.12.07-04.01.19:645][851]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2020.12.07-04.01.19:645][851]LogParticles: Error: ViewProj3: {0.999341, 0.001948, -0.036233, 1.000000}
+[2020.12.07-04.01.19:645][851]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2020.12.07-04.01.19:645][851]LogParticles: Error: SystemPositionForMacroUVs: {-92338.414063, -124399.789063, 46579.089844}
+[2020.12.07-04.01.19:645][851]LogParticles: Error: ObjectPostProjectionPositionWithW: {308.398438, -384.682129, 10.000000, -0.007813}
+[2020.12.07-04.01.19:645][851]LogParticles: Error: RightPostProjectionPosition: {508.398438, -384.682129, 10.000000, -0.007813}
+[2020.12.07-04.01.19:645][851]LogParticles: Error: UpPostProjectionPosition: {308.406250, -29.133789, 10.000000, 0.000000}
+[2020.12.07-04.01.19:645][851]LogParticles: Error: ObjectNDCPosition: {30839844.000000, -38468212.000000}
+[2020.12.07-04.01.19:645][851]LogParticles: Error: RightNDCPosX: -65075.000000
+[2020.12.07-04.01.19:645][851]LogParticles: Error: UpNDCPosY: -inf
+[2020.12.07-04.01.19:645][851]LogParticles: Error: MacroUVPosition: {-92338.414063, -124399.789063, 46579.089844}
+[2020.12.07-04.01.19:645][851]LogParticles: Error: MacroUVRadius: 200.000000
+[2020.12.07-04.01.19:645][851]LogParticles: Error: DX: -30904920.000000
+[2020.12.07-04.01.19:645][851]LogParticles: Error: DY: -inf
+[2020.12.07-04.01.19:645][851]LogParticles: Error: View0: {-0.001949, 0.999998, -0.000000, 1.000000}
+[2020.12.07-04.01.19:645][851]LogParticles: Error: View1: {0.036233, 0.000071, 0.999343, 1.000000}
+[2020.12.07-04.01.19:646][851]LogParticles: Error: View2: {0.999341, 0.001948, -0.036233, 1.000000}
+[2020.12.07-04.01.19:646][851]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2020.12.07-04.01.19:646][851]LogParticles: Error: ViewProj0: {-0.002878, 0.999996, 0.000034, 1.000000}
+[2020.12.07-04.01.19:646][851]LogParticles: Error: ViewProj1: {0.063813, 0.000125, 1.776633, 1.000000}
+[2020.12.07-04.01.19:646][851]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2020.12.07-04.01.19:646][851]LogParticles: Error: ViewProj3: {0.999341, 0.001948, -0.036233, 1.000000}
+[2020.12.07-04.01.55:452][ 65]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.02.05:519][ 95]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.02.15:925][126]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.03.17:532][429]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.03.27:926][543]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.03.38:486][671]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.04.41:324][858]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.04.51:376][888]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.05.01:780][919]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.07.06:688][734]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.08.10:451][924]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.08.20:852][955]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.08.25:874][970]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.08.42:844][201]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2020.12.07-04.08.42:845][201]LogParticles: Error: SystemPositionForMacroUVs: {-92329.117188, -125171.539063, 47798.699219}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: ObjectPostProjectionPositionWithW: {-463.367188, 18.103577, 10.000000, 0.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: RightPostProjectionPosition: {-263.367188, 18.103638, 10.000000, 0.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: UpPostProjectionPosition: {-463.359375, 373.662720, 10.000000, 0.007813}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: ObjectNDCPosition: {-46336720.000000, 1810357.625000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: RightNDCPosX: -inf
+[2020.12.07-04.08.42:845][201]LogParticles: Error: UpNDCPosY: 47828.828125
+[2020.12.07-04.08.42:845][201]LogParticles: Error: MacroUVPosition: {-92329.117188, -125171.539063, 47798.699219}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: MacroUVRadius: 200.000000
+[2020.12.07-04.08.42:845][201]LogParticles: Error: DX: -inf
+[2020.12.07-04.08.42:845][201]LogParticles: Error: DY: -1762528.750000
+[2020.12.07-04.08.42:845][201]LogParticles: Error: View0: {-0.001949, 0.999998, -0.000000, 1.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: View1: {-0.005718, -0.000011, 0.999984, 1.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: View2: {0.999982, 0.001949, 0.005718, 1.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: ViewProj0: {-0.001577, 0.999999, 0.000002, 1.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: ViewProj1: {-0.010719, -0.000021, 1.777746, 1.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: ViewProj3: {0.999982, 0.001949, 0.005718, 1.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2020.12.07-04.08.42:845][201]LogParticles: Error: SystemPositionForMacroUVs: {-92329.117188, -125171.539063, 47798.699219}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: ObjectPostProjectionPositionWithW: {-463.367188, 18.103577, 10.000000, 0.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: RightPostProjectionPosition: {-263.367188, 18.103638, 10.000000, 0.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: UpPostProjectionPosition: {-463.359375, 373.662720, 10.000000, 0.007813}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: ObjectNDCPosition: {-46336720.000000, 1810357.625000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: RightNDCPosX: -inf
+[2020.12.07-04.08.42:845][201]LogParticles: Error: UpNDCPosY: 47828.828125
+[2020.12.07-04.08.42:845][201]LogParticles: Error: MacroUVPosition: {-92329.117188, -125171.539063, 47798.699219}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: MacroUVRadius: 200.000000
+[2020.12.07-04.08.42:845][201]LogParticles: Error: DX: -inf
+[2020.12.07-04.08.42:845][201]LogParticles: Error: DY: -1762528.750000
+[2020.12.07-04.08.42:845][201]LogParticles: Error: View0: {-0.001949, 0.999998, -0.000000, 1.000000}
+[2020.12.07-04.08.42:845][201]LogParticles: Error: View1: {-0.005718, -0.000011, 0.999984, 1.000000}
+[2020.12.07-04.08.42:846][201]LogParticles: Error: View2: {0.999982, 0.001949, 0.005718, 1.000000}
+[2020.12.07-04.08.42:846][201]LogParticles: Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2020.12.07-04.08.42:846][201]LogParticles: Error: ViewProj0: {-0.001577, 0.999999, 0.000002, 1.000000}
+[2020.12.07-04.08.42:846][201]LogParticles: Error: ViewProj1: {-0.010719, -0.000021, 1.777746, 1.000000}
+[2020.12.07-04.08.42:846][201]LogParticles: Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2020.12.07-04.08.42:846][201]LogParticles: Error: ViewProj3: {0.999982, 0.001949, 0.005718, 1.000000}
+[2020.12.07-04.10.17:926][936]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.10.28:299][967]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.10.37:696][995]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.12.11:122][668]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.12.22:486][796]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.12.53:836][115]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.13.04:924][148]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.14.18:774][368]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.14.29:804][401]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.16.54:140][ 77]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.17.05:190][110]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.18.21:818][338]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.18.33:555][373]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.19.45:735][748]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.19.57:499][783]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.20.08:606][816]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.23.26:026][927]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.23.55:773][110]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.24.10:202][153]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.07-04.24.18:592][178]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000

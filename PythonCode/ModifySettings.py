@@ -28,7 +28,7 @@ def getVehicles():
     
     index = 0
     for dataVehi in data[VEHICLESDIC]:
-        uavNumArray[index] = [dataVehi]
+        uavNumArray[index] = dataVehi
         index = index+1
     return uavNumArray      
        

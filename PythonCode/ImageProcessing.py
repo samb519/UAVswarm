@@ -16,6 +16,7 @@ VEHICLENAME = "UAV"
 
 
 def connectToUnreal():
+    print("Test")
     # initializing AirSim Simulator
     tempClient = airsim.MultirotorClient()
     tempClient.confirmConnection()

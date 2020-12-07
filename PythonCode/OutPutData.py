@@ -48,13 +48,13 @@ def plotSingleSwarm():
 def plotAll2D():
     names = mod.getVehicles()
     fig = plt.figure() 
-    plt.title('Entire Swarm' + " Position(X,Y)")
+    plt.title('UAV Entire Swarm' + " Position(X,Y)")
     plt.xlabel('X')
     plt.ylabel('Y')
     for i in range(len(names)):
         plt.scatter(data[names[i]]['X'], data[names[i]]['Y'],label = names[i])
     plt.legend()
-    plt.savefig('Entire Swarm 2D.png')
+    plt.savefig('UAV Entire Swarm 2D.png')
 
 def plotAll3D():  
     names = mod.getVehicles()

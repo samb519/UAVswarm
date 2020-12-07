@@ -20,7 +20,7 @@ class Drone:
     	self.drone.enableApiControl(True)
     	self.drone.armDisarm(True)
 
-    def sendImageToMaster():
+    	def sendImageToMaster():
 
 	def sendGlobalPositionToMaster():
 		return position

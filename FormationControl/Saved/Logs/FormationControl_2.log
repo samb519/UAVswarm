@@ -1059,3 +1059,124 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.08-22.19.44:524][361]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
 [2020.12.08-22.19.59:136][519]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
 [2020.12.08-22.20.13:883][678]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.08-22.22.01:732][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.12.08-22.22.01:732][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.12.08-22.22.01:757][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.08-22.22.01:757][445]LogWorld: BeginTearingDown for /Game/UEDPIE_0_FormationControl
+[2020.12.08-22.22.01:758][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.12.08-22.22.01:758][445]LogWorld: UWorld::CleanupWorld for FormationControl, bSessionEnded=true, bCleanupResources=true
+[2020.12.08-22.22.01:818][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.08-22.22.01:956][445]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.08-22.22.01:968][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.08-22.22.02:035][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.12.08-22.22.02:046][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.08-22.22.02:059][445]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2020.12.08-22.22.02:148][446]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.12.08-22.22.48:275][657]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.08-22.22.48:368][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.08-22.22.48:368][657]PIE: New page: PIE session: FormationControl (Dec 8, 2020, 12:22:48 PM)
+[2020.12.08-22.22.48:368][657]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FormationControl
+[2020.12.08-22.22.48:374][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005295s)
+[2020.12.08-22.22.48:375][657]LogAIModule: Creating AISystem for world FormationControl
+[2020.12.08-22.22.48:377][657]LogPlayLevel: PIE: World Init took: (0.002520s)
+[2020.12.08-22.22.48:377][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FormationControl.FormationControl to /Game/UEDPIE_0_FormationControl.FormationControl (0.008179s)
+[2020.12.08-22.22.48:440][657]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2020.12.08-22.22.48:443][657]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.08-22.22.48:444][657]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.08-22.22.48:444][657]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.08-22.22.48:444][657]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.08-22.22.48:444][657]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.08-22.22.48:444][657]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.08-22.22.48:444][657]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.08-22.22.48:444][657]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.08-22.22.48:445][657]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.08-22.22.48:445][657]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.08-22.22.48:464][657]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.12.08-22.22.48:465][657]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio(SST))
+[2020.12.08-22.22.48:465][657]LogAudioMixer: Display: Is Default: Yes
+[2020.12.08-22.22.48:465][657]LogAudioMixer: Display: Sample Rate: 48000
+[2020.12.08-22.22.48:465][657]LogAudioMixer: Display: Channel Count Used: 2
+[2020.12.08-22.22.48:465][657]LogAudioMixer: Display: Device Channel Count: 2
+[2020.12.08-22.22.48:465][657]LogAudioMixer: Display: Channel Order:
+[2020.12.08-22.22.48:465][657]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.08-22.22.48:465][657]LogAudioMixer: Display: 1: FrontRight
+[2020.12.08-22.22.48:501][657]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.12.08-22.22.48:506][657]LogInit: FAudioDevice initialized.
+[2020.12.08-22.22.48:524][657]LogLoad: Game class is 'AirSimGameMode'
+[2020.12.08-22.22.48:529][657]LogWorld: Bringing World /Game/UEDPIE_0_FormationControl.FormationControl up for play (max tick rate 60) at 2020.12.08-17.22.48
+[2020.12.08-22.22.48:530][657]LogWorld: Bringing up level for play took: 0.003928
+[2020.12.08-22.22.48:531][657]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.12.08-22.22.48:909][657]LogPackageName: SearchForPackageOnDisk took   0.370s, but failed to resolve Blocks.
+[2020.12.08-22.22.48:924][657]LogConsoleManager: Warning: Setting the console variable 'r.CustomDepth' with 'SetByCode' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '3'
+[2020.12.08-22.22.48:924][657]Cmd: r.CustomDepth 3
+[2020.12.08-22.22.48:924][657]r.CustomDepth = "3"
+[2020.12.08-22.22.48:927][657]LogActor: Warning: BP_CameraDirector_C /Game/UEDPIE_0_FormationControl.FormationControl:PersistentLevel.CameraDirector has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.12.08-22.22.49:157][657]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/AirSim/Weather/WeatherFX/WeatherActor.WeatherActor_C:ExecuteUbergraph_WeatherActor'!
+[2020.12.08-22.22.49:172][657]LogTemp: UAV1
+[2020.12.08-22.22.49:181][657]PIE: Play in editor start time for /Game/UEDPIE_0_FormationControl 0.938
+[2020.12.08-22.23.05:577][777]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.08-22.23.19:020][817]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.08-22.23.33:015][921]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.08-22.24.57:796][295]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.12.08-22.24.57:796][295]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.12.08-22.24.57:814][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.08-22.24.57:814][295]LogWorld: BeginTearingDown for /Game/UEDPIE_0_FormationControl
+[2020.12.08-22.24.57:814][295]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.12.08-22.24.57:814][295]LogWorld: UWorld::CleanupWorld for FormationControl, bSessionEnded=true, bCleanupResources=true
+[2020.12.08-22.24.57:850][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.08-22.24.58:025][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.08-22.24.58:035][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.08-22.24.58:104][295]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.12.08-22.24.58:111][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.08-22.24.58:123][295]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2020.12.08-22.24.58:149][296]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.12.08-22.24.59:066][309]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.08-22.24.59:151][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.08-22.24.59:151][309]PIE: New page: PIE session: FormationControl (Dec 8, 2020, 12:24:59 PM)
+[2020.12.08-22.24.59:151][309]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FormationControl
+[2020.12.08-22.24.59:162][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010368s)
+[2020.12.08-22.24.59:164][309]LogAIModule: Creating AISystem for world FormationControl
+[2020.12.08-22.24.59:165][309]LogPlayLevel: PIE: World Init took: (0.002899s)
+[2020.12.08-22.24.59:165][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FormationControl.FormationControl to /Game/UEDPIE_0_FormationControl.FormationControl (0.013645s)
+[2020.12.08-22.24.59:264][309]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.12.08-22.24.59:265][309]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.08-22.24.59:265][309]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.08-22.24.59:265][309]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.08-22.24.59:265][309]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.08-22.24.59:266][309]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.08-22.24.59:266][309]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.08-22.24.59:266][309]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.08-22.24.59:266][309]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.08-22.24.59:266][309]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.08-22.24.59:266][309]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.08-22.24.59:280][309]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.12.08-22.24.59:280][309]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio(SST))
+[2020.12.08-22.24.59:280][309]LogAudioMixer: Display: Is Default: Yes
+[2020.12.08-22.24.59:281][309]LogAudioMixer: Display: Sample Rate: 48000
+[2020.12.08-22.24.59:281][309]LogAudioMixer: Display: Channel Count Used: 2
+[2020.12.08-22.24.59:281][309]LogAudioMixer: Display: Device Channel Count: 2
+[2020.12.08-22.24.59:281][309]LogAudioMixer: Display: Channel Order:
+[2020.12.08-22.24.59:281][309]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.08-22.24.59:281][309]LogAudioMixer: Display: 1: FrontRight
+[2020.12.08-22.24.59:316][309]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.12.08-22.24.59:321][309]LogInit: FAudioDevice initialized.
+[2020.12.08-22.24.59:337][309]LogLoad: Game class is 'AirSimGameMode'
+[2020.12.08-22.24.59:340][309]LogWorld: Bringing World /Game/UEDPIE_0_FormationControl.FormationControl up for play (max tick rate 60) at 2020.12.08-17.24.59
+[2020.12.08-22.24.59:341][309]LogWorld: Bringing up level for play took: 0.001674
+[2020.12.08-22.24.59:341][309]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.12.08-22.24.59:727][309]LogPackageName: SearchForPackageOnDisk took   0.381s, but failed to resolve Blocks.
+[2020.12.08-22.24.59:747][309]LogConsoleManager: Warning: Setting the console variable 'r.CustomDepth' with 'SetByCode' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '3'
+[2020.12.08-22.24.59:747][309]Cmd: r.CustomDepth 3
+[2020.12.08-22.24.59:747][309]r.CustomDepth = "3"
+[2020.12.08-22.24.59:754][309]LogActor: Warning: BP_CameraDirector_C /Game/UEDPIE_0_FormationControl.FormationControl:PersistentLevel.CameraDirector has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.12.08-22.25.00:101][309]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/AirSim/Weather/WeatherFX/WeatherActor.WeatherActor_C:ExecuteUbergraph_WeatherActor'!
+[2020.12.08-22.25.00:124][309]LogTemp: UAV1
+[2020.12.08-22.25.00:131][309]PIE: Play in editor start time for /Game/UEDPIE_0_FormationControl 1.888
+[2020.12.08-22.25.10:173][368]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.08-22.25.24:008][516]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.08-22.25.37:589][663]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.08-22.25.51:346][807]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.08-22.26.05:097][949]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.08-22.26.18:735][ 89]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.12.08-22.27.04:995][559]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.12.08-22.27.04:996][559]LogAudioMixer: Display: No commands were queued while flushing the source manager.

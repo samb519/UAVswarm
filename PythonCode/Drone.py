@@ -10,7 +10,7 @@ class Drone:
 
 		self.drone.enableApiControl(True, self.name)
 		self.drone.armDisarm(True, self.name)
-		self.drone.takeoffAsync(vehicle_name=self.name).join()
+		self.drone.takeoffAsync(vehicle_name=self.name)
 
 	def sendGlobalPositionToMaster(self):
 		return self.position
@@ -24,4 +24,4 @@ class Drone:
 
 	#vector
 	def moveDrone(self, location):
-		self.drone.moveByVelocityAsync(location[0], location[1], location[2], 1, vehicle_name=self.name).join()
+		self.drone.moveByVelocityAsync(location[0], location[1], location[2], 1, vehicle_name=self.name)

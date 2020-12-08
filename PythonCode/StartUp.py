@@ -4,7 +4,7 @@ Created on Wed Oct 28 13:21:15 2020
 
 """
 import ImageProcessing
-from ModifySettings import getVehicles
+from ModifySettings import getVehicles,getDistribution
 from Drone import Drone
 import numpy as np
 from ForceControlAlgorithm import ForceControlAlgorithm
@@ -12,7 +12,7 @@ import time
 
 def __StartUp():
     mass = 5
-    forceStrength = 0.00000000001;
+    forceStrength = getDistribution()
     print("Starting up");
     client = ImageProcessing.connectToUnreal()
     

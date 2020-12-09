@@ -1,7 +1,6 @@
 {
-    "RecordUIVisible": false, 
     "LogMessagesVisible": false, 
-    "DistributionSize": 0.0000000001, 
+    "DistributionSize": 1e-10, 
     "Vehicles": {
         "UAV1": {
             "Y": 0, 
@@ -20,10 +19,23 @@
             "X": 8, 
             "Z": -2, 
             "VehicleType": "SimpleFLight"
+        }, 
+        "UAV4": {
+            "Y": 4, 
+            "X": 0, 
+            "Z": 0, 
+            "VehicleType": "SimpleFLight"
+        }, 
+        "UAV5": {
+            "Y": 4, 
+            "X": 2, 
+            "Z": 0, 
+            "VehicleType": "SimpleFLight"
         }
     }, 
+    "SettingsVersion": 1.2, 
     "SimMode": "Multirotor", 
     "EngineSound": false, 
-    "SettingsVersion": 1.2, 
-    "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md"
+    "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md", 
+    "RecordUIVisible": false
 }

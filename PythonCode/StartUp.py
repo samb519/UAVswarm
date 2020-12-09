@@ -9,6 +9,7 @@ from Drone import Drone
 import numpy as np
 from ForceControlAlgorithm import ForceControlAlgorithm
 import time
+from datetime import datetime
 from OutPutData import addData, HandleLog
 positions = {}
 def __StartUp():
@@ -27,21 +28,21 @@ def __StartUp():
 
     # initializing AirSim Simulator
 
-
     
     controller = ForceControlAlgorithm(forceStrength)
     # intializing drones
     print("Beginning Takeoff Sequence")
     for i in range(len(droneNames)):
-        drone = Drone(i, "UAV" + str(i + 1), mass, client, controller)
+        drone = Drone(i, droneNames[i], mass, client, controller)
         drones.append(drone)
         positions[drone.name] = np.array([0, 0, 0])
-    time.sleep(10)
-    drones[0].mass = 200
+    time.sleep(5)
+    drones[0].mass = 50
     print("Ending takeoff Sequence")
 
     masterDroneName = drones[0].name
-    while ImageProcessing.checkConnect():
+    startTime = datetime.now()
+    while (datetime.now() - startTime).seconds < 20:
         for i in range(0, len(drones)):
             gpsData = client.getGpsData(vehicle_name=drones[i].name);
             pos = np.array([gpsData.gnss.geo_point.latitude,gpsData.gnss.geo_point.longitude,0])
@@ -49,7 +50,7 @@ def __StartUp():
             drones[i].position = positions[drones[i].name]
             addData(drones[i].name,pos[0],pos[1],pos[2])
             print(drones[i].name, drones[i].position)
-            HandleLog()
+            
             
         for i in range(1, len(drones)):
             force = np.zeros(3)
@@ -57,7 +58,7 @@ def __StartUp():
                 if i == j:
                     continue
                 calcForce = drones[i].controlAlgorithm.computeMovementForce(drones[i], drones[j])
-                #print(calcForce)
+                print(calcForce)
                 if j == 0:
                     force = force + calcForce
                 else:
@@ -67,8 +68,8 @@ def __StartUp():
                 force = force/length
             if length < 0.5:
                 force = force * 0
-            #print(i, force)
+            print(i, force)
             drones[i].moveDrone(force)
         time.sleep(1)  
-         
+    HandleLog()      
 __StartUp()

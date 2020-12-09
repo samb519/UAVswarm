@@ -73,7 +73,7 @@ def getDistribution():
     return data[DISTRIBUTE]
 
 def displayDistribution():
-    print("Force/Distribution Size: " + getDistribution())
+    print("Force/Distribution Size: ", getDistribution())
 
 def __writeData():
       with open(PATH,'w') as f: 

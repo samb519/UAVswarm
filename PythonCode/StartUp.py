@@ -10,7 +10,7 @@ import numpy as np
 from ForceControlAlgorithm import ForceControlAlgorithm
 import time
 from OutPutData import addData, HandleLog
-
+positions = {}
 def __StartUp():
     mass = 5
     forceStrength = getDistribution()
@@ -28,7 +28,7 @@ def __StartUp():
     # initializing AirSim Simulator
 
 
-    positions = {}
+    
     controller = ForceControlAlgorithm(forceStrength)
     # intializing drones
     print("Beginning Takeoff Sequence")
@@ -39,21 +39,18 @@ def __StartUp():
     time.sleep(10)
     drones[0].mass = 200
     print("Ending takeoff Sequence")
-    #client.moveToPositionAsync(0,100,3,.1,vehicle_name = "UAV1")
 
     masterDroneName = drones[0].name
-    while True:
-
+    while ImageProcessing.checkConnect():
         for i in range(0, len(drones)):
             gpsData = client.getGpsData(vehicle_name=drones[i].name);
             pos = np.array([gpsData.gnss.geo_point.latitude,gpsData.gnss.geo_point.longitude,0])
-            positions[drones[i].name] = pos#client.getGpsData(vehicle_name=drones[i].name)#ImageProcessing.getLocalPosition(client, [], [masterDroneName, drones[i].name])
+            positions[drones[i].name] = pos
             drones[i].position = positions[drones[i].name]
-           # print(drones[i].name, drones[i].position)
-            print("pos 0 " + drones[i].position[0])
-            print("pos 1 " +drones[i].position[1])
-            print("pos 2 " +drones[i].position[2])
-
+            addData(drones[i].name,pos[0],pos[1],pos[2])
+            print(drones[i].name, drones[i].position)
+            HandleLog()
+            
         for i in range(1, len(drones)):
             force = np.zeros(3)
             for j in range(0, len(drones)):
@@ -72,7 +69,6 @@ def __StartUp():
                 force = force * 0
             #print(i, force)
             drones[i].moveDrone(force)
-            #addData(drones[i].name,drones[i].position[0],drones[i].position[1],drones[i].position[2])
-        time.sleep(1)
-        
+        time.sleep(1)  
+         
 __StartUp()

@@ -11,7 +11,7 @@ import TerminalCheck as tCheck
 VEHICLESDIC = "Vehicles"
 VEHICLENAME = "UAV"
 DISTRIBUTE = "DistributionSize"
-PATH = r'Z:\forni\Documents\AirSim\settings.json'
+PATH = r'Z:\forni\Documents\AirSim\settings.json' #Must change to your Local Settings.json
 JSONINDENT = 4
 
 def __loadData():

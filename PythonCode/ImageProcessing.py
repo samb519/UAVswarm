@@ -16,12 +16,18 @@ VEHICLENAME = "UAV"
 
 
 def connectToUnreal():
-    print("Test")
     # initializing AirSim Simulator
     tempClient = airsim.MultirotorClient()
     tempClient.confirmConnection()
     return tempClient
 
+def checkConnect():
+    try:
+         tempClient = airsim.MultirotorClient()
+         tempClient.confirmConnection()
+         return True
+    except:
+        return False
 
 def getLocalPosition(client, droneNum, droneNames):
 
@@ -119,7 +125,3 @@ def getLocalPosition(client, droneNum, droneNames):
         numpyVector = np.array(inches/12)
 
         return numpyVector
-
-
-
-

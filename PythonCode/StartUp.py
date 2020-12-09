@@ -9,6 +9,7 @@ from Drone import Drone
 import numpy as np
 from ForceControlAlgorithm import ForceControlAlgorithm
 import time
+from OutPutData import addData, HandleLog
 
 def __StartUp():
     mass = 5
@@ -48,7 +49,10 @@ def __StartUp():
             pos = np.array([gpsData.gnss.geo_point.latitude,gpsData.gnss.geo_point.longitude,0])
             positions[drones[i].name] = pos#client.getGpsData(vehicle_name=drones[i].name)#ImageProcessing.getLocalPosition(client, [], [masterDroneName, drones[i].name])
             drones[i].position = positions[drones[i].name]
-            print(drones[i].name, drones[i].position)
+           # print(drones[i].name, drones[i].position)
+            print("pos 0 " + drones[i].position[0])
+            print("pos 1 " +drones[i].position[1])
+            print("pos 2 " +drones[i].position[2])
 
         for i in range(1, len(drones)):
             force = np.zeros(3)
@@ -56,7 +60,7 @@ def __StartUp():
                 if i == j:
                     continue
                 calcForce = drones[i].controlAlgorithm.computeMovementForce(drones[i], drones[j])
-                print(calcForce)
+                #print(calcForce)
                 if j == 0:
                     force = force + calcForce
                 else:
@@ -66,7 +70,9 @@ def __StartUp():
                 force = force/length
             if length < 0.5:
                 force = force * 0
-            print(i, force)
+            #print(i, force)
             drones[i].moveDrone(force)
+            #addData(drones[i].name,drones[i].position[0],drones[i].position[1],drones[i].position[2])
         time.sleep(1)
+        
 __StartUp()

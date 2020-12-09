@@ -11,7 +11,7 @@ import TerminalCheck as tCheck
 VEHICLESDIC = "Vehicles"
 VEHICLENAME = "UAV"
 DISTRIBUTE = "DistributionSize"
-PATH = r'C:\Users\jmora\OneDrive\Documents\AirSim\settings.json'
+PATH = r'Z:\forni\Documents\AirSim\settings.json'
 JSONINDENT = 4
 
 def __loadData():
@@ -71,7 +71,10 @@ def setDistribution(size):
         
 def getDistribution():
     return data[DISTRIBUTE]
-    
+
+def displayDistribution():
+    print("Force/Distribution Size: " + getDistribution())
+
 def __writeData():
       with open(PATH,'w') as f: 
         json.dump(data, f, indent=JSONINDENT) 

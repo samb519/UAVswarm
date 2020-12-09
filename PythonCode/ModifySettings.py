@@ -11,7 +11,7 @@ import TerminalCheck as tCheck
 VEHICLESDIC = "Vehicles"
 VEHICLENAME = "UAV"
 DISTRIBUTE = "DistributionSize"
-PATH = r'P:\\GitHub\UAVswarm\\-Documents-AirSim\\settings.json'
+PATH = r'Z:\forni\Documents\AirSim\settings.json' #Must change to your Local Settings.json
 JSONINDENT = 4
 
 def __loadData():
@@ -28,7 +28,7 @@ def getVehicles():
     
     index = 0
     for dataVehi in data[VEHICLESDIC]:
-        uavNumArray[index] = [dataVehi]
+        uavNumArray[index] = dataVehi
         index = index+1
     return uavNumArray      
        
@@ -71,7 +71,10 @@ def setDistribution(size):
         
 def getDistribution():
     return data[DISTRIBUTE]
-    
+
+def displayDistribution():
+    print("Force/Distribution Size: " + getDistribution())
+
 def __writeData():
       with open(PATH,'w') as f: 
         json.dump(data, f, indent=JSONINDENT) 

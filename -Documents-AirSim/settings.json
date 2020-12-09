@@ -1,7 +1,7 @@
 {
     "RecordUIVisible": false, 
     "LogMessagesVisible": false, 
-    "DistributionSize": 100, 
+    "DistributionSize": 0.0000000001, 
     "Vehicles": {
         "UAV1": {
             "Y": 0, 

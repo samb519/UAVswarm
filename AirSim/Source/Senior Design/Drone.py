@@ -12,16 +12,20 @@ import ForceControlAlgorithm
 class Drone:
 	position = [0, 0, 0]
 
-	def __init__(self, id, name, mass):
+	def __init__(self, id, name, mass,client):
+
 		self.id = id
 		self.name = name
-		self.mass = mass	
+		self.mass = mass
 		self.drone = airsim.MultirotorClient();
-    	self.drone.confirmConnection()
-    	self.drone.enableApiControl(True)
-    	self.drone.armDisarm(True)
+		client.enableApiControl(True, droneName)
+		client.armDisarm(True, droneName)
+		client.takeoffAsync(vehicle_name=name).join()
 
-    	def sendImageToMaster():
+
+
+	def sendImageToMaster():
+
 
 	def sendGlobalPositionToMaster():
 		return position
